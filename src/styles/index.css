@@ -8,4 +8,78 @@
     
     import 'relative/path/to/stylesheet.scss';
 
-*/
+    */
+
+body{
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 50px;
+}
+
+.tubo{
+    width: 25px;
+    height: 360px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin-top: 100px;
+    border: solid 3px grey;
+}
+
+.semaforo{
+    width: 150px;
+    height: 360px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    border: solid 3px grey;
+}
+
+.luz {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 6px;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    font-size: 10px;
+    text-shadow: 1px 1px 2px pink;
+}
+
+.Red { background-color: red; }
+.Yellow { background-color: yellow; }
+.Green { background-color: green; }
+.Violet { background-color: violet; }
+
+.glow.Red {
+    box-shadow: red 1px 0 45px;
+}
+
+.glow.Yellow {
+    box-shadow: yellow 1px 0 45px;
+}
+
+.glow.Green {
+    box-shadow: green 1px 0 45px;
+}
+
+.glow.Violet {
+    box-shadow: violet 1px 0 45px;}
+
+
+
+
